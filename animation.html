@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Social Media Platform</title>
+<script>
+/* Defining Table
+ * Input: A person's name
+ * Processing: Create a greeting for that person
+ * Output: The greeting
+ */
+function greetUser() {
+    // This line prompts the user to type in his name.
+    let socialmedia = prompt("Please enter your preferred social media");
+
+    // Create a personalized greeting for the user.
+    let account = "I use " + socialmedia + ".  It has better features for photos and videos.";
+
+    // The next line causes the computer to display
+    // a greeting to the user in a popup window.
+    alert(account);
+}
+</script>
+</head>
+
+<body>                                      
+    <button type="button" onclick="greetUser()">Media</button>
+</body>
+</html>
